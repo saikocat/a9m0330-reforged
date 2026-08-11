@@ -2,7 +2,7 @@
 	(version 20251024)
 	(generator "kicad_symbol_editor")
 	(generator_version "10.0")
-	(symbol "MCP23017x-x-SO"
+	(symbol "IO_Expansion__MCP23017x-x-SO"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -85,7 +85,7 @@
 				)
 			)
 		)
-		(symbol "MCP23017x-x-SO_0_1"
+		(symbol "IO_Expansion__MCP23017x-x-SO_0_1"
 			(rectangle
 				(start -10.16 22.86)
 				(end 10.16 -22.86)
@@ -98,7 +98,7 @@
 				)
 			)
 		)
-		(symbol "MCP23017x-x-SO_1_1"
+		(symbol "IO_Expansion__MCP23017x-x-SO_1_1"
 			(pin bidirectional line
 				(at 12.7 -2.54 180)
 				(length 2.54)
@@ -609,7 +609,7 @@
 		(embedded_fonts no)
 	)
 	(symbol "IO_Expansion__MCP23017x-x-SS"
-		(extends "MCP23017x-x-SO")
+		(extends "IO_Expansion__MCP23017x-x-SO")
 		(property "Reference" "U"
 			(at -9.398 24.638 0)
 			(show_name no)

@@ -2508,6 +2508,686 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "A9M0330:LED_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at -1.27 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "LED_Small"
+				(at -4.445 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Light emitting diode, small symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LED diode light-emitting-diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LED_Small_0_1"
+				(polyline
+					(pts
+						(xy -0.762 -1.016) (xy -0.762 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy -0.508 1.27) (xy -0.254 1.27) (xy -0.508 1.27) (xy -0.508 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.778) (xy 0.254 1.778) (xy 0 1.778) (xy 0 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy -0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_Small_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.778)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.778)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "A9M0330:MCU_Module__XIAO_nRF52840_NFC-NC"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -19.558 22.86 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "XIAO_nRF52840"
+				(at -17.018 20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -7.62 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://wiki.seeedstudio.com/XIAO_BLE/"
+				(at -7.366 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "an ultra-small, low-power Bluetooth 5.0 and NFC development board powered by the Nordic nRF52840 ARM Cortex-M4 CPU"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MCU_Module__XIAO_nRF52840_NFC-NC_0_1"
+				(rectangle
+					(start -19.05 19.05)
+					(end 19.05 -19.05)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "MCU_Module__XIAO_nRF52840_NFC-NC_1_1"
+				(pin bidirectional line
+					(at -21.59 7.62 0)
+					(length 2.54)
+					(name "A2/0.02_H"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -21.59 5.08 0)
+					(length 2.54)
+					(name "A4/0.03_H"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -21.59 2.54 0)
+					(length 2.54)
+					(name "A10/0.28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -21.59 0 0)
+					(length 2.54)
+					(name "A11/0.29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -21.59 -2.54 0)
+					(length 2.54)
+					(name "A8_SDA/0.04_H"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -21.59 -5.08 0)
+					(length 2.54)
+					(name "A9_SCL/0.05_H"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -21.59 -7.62 0)
+					(length 2.54)
+					(name "B8_TX/1.11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 21.59 -7.62 180)
+					(length 2.54)
+					(name "B9_RX/1.12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 21.59 -5.08 180)
+					(length 2.54)
+					(name "A7_SCK/1.13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 21.59 -2.54 180)
+					(length 2.54)
+					(name "A5_MISO/1.14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 21.59 0 180)
+					(length 2.54)
+					(name "A6_MOSI/1.15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 21.59 2.54 180)
+					(length 2.54)
+					(name "3V3_OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 21.59 5.08 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 21.59 7.62 180)
+					(length 2.54)
+					(name "5V_VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -3.81 21.59 270)
+					(length 2.54)
+					(name "A31_SWDIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -1.27 21.59 270)
+					(length 2.54)
+					(name "A30_SWCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 1.27 21.59 270)
+					(length 2.54)
+					(name "RESET"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 3.81 21.59 270)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -3.81 -21.59 90)
+					(length 2.54)
+					(name "VBAT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -1.27 -21.59 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 1.27 -21.59 90)
+					(length 2.54)
+					(hide yes)
+					(name "NFC1/0.09_H"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 3.81 -21.59 90)
+					(length 2.54)
+					(hide yes)
+					(name "NFC2/0.10_H"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "A9M0330:Protection_ESD__DT1452-02SO"
 			(pin_names
 				(offset 0)
@@ -3203,6 +3883,196 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "A9M0330:SW_SPDT_321"
+			(pin_names
+				(offset 1)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_SPDT_321"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Switch, single pole double throw"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SW_SPDT_321_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.254) (xy 1.651 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SPDT_321_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "A9M0330:Screw_Terminal_01x01"
 			(pin_names
 				(offset 1.016)
@@ -3346,6 +4216,320 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "A9M0330:Transistor_FET__AO3401A"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "AO3401A"
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
+				(at 5.08 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "P-Channel MOSFET"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Transistor_FET__AO3401A_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Transistor_FET__AO3401A_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4569,6 +5753,30 @@
 		)
 	)
 	(rectangle
+		(start 234.95 106.68)
+		(end 284.48 143.51)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "553ab666-bdaa-4e8a-b588-d61d2d797568")
+	)
+	(rectangle
+		(start 179.07 12.7)
+		(end 284.48 104.14)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "69360a27-ab65-46d7-af49-9c6990ca5e30")
+	)
+	(rectangle
 		(start 179.07 106.68)
 		(end 233.68 165.1)
 		(stroke
@@ -4644,6 +5852,18 @@
 		)
 		(uuid "5d178be2-8d67-458e-9bd1-34fcbfeb7f8b")
 	)
+	(text "Wireless & Battery"
+		(exclude_from_sim no)
+		(at 250.19 109.474 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "61955ac6-aaae-436b-a280-581f43f51ec5")
+	)
 	(text "NICE!VIEW\n--------------"
 		(exclude_from_sim no)
 		(at 220.472 115.824 0)
@@ -4687,6 +5907,18 @@
 			)
 		)
 		(uuid "afbe809f-0492-4e0c-9b3e-a485fcf4cd8b")
+	)
+	(text "MCU"
+		(exclude_from_sim no)
+		(at 183.388 15.494 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "b36732ab-5390-44c5-9d31-20a274abd4fe")
 	)
 	(text "Accessories | Peripherals"
 		(exclude_from_sim no)
@@ -4777,6 +6009,12 @@
 		(uuid "7c4d8fe5-2153-4f6c-8a36-07b9aae152a9")
 	)
 	(junction
+		(at 261.62 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89ff8103-8f67-47f7-9316-5b8705dd0574")
+	)
+	(junction
 		(at 132.08 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4837,16 +6075,32 @@
 		(uuid "fa6c290e-22a9-43b1-aa96-5e6869011a1b")
 	)
 	(no_connect
+		(at 203.2 55.88)
+		(uuid "313d7e17-e166-462c-a646-751e3af0d714")
+	)
+	(no_connect
 		(at 53.34 149.86)
 		(uuid "347233df-3bb7-48b1-9402-6e184c238037")
+	)
+	(no_connect
+		(at 203.2 68.58)
+		(uuid "42bb3efb-5ea3-4a13-9a5f-705c403e9441")
 	)
 	(no_connect
 		(at 107.95 172.72)
 		(uuid "6aa0fd35-39c9-4d15-b042-17d007a0a51c")
 	)
 	(no_connect
+		(at 246.38 63.5)
+		(uuid "6e105a2d-7b1e-4932-9a17-6bb719f54794")
+	)
+	(no_connect
 		(at 53.34 172.72)
 		(uuid "7124d344-9c2c-4a4f-90d3-75e2b4114260")
+	)
+	(no_connect
+		(at 223.52 39.37)
+		(uuid "79d32b30-9968-42ea-a6b8-33668705ce9d")
 	)
 	(no_connect
 		(at 125.73 33.02)
@@ -4857,12 +6111,24 @@
 		(uuid "aba5e065-a5ee-4e80-9f91-775dbd6dea7f")
 	)
 	(no_connect
+		(at 203.2 53.34)
+		(uuid "acf46b55-d445-4b34-9c65-ea2f4c9b443c")
+	)
+	(no_connect
+		(at 220.98 39.37)
+		(uuid "bc1ae70d-3c99-449d-b3f9-f57d1b285bff")
+	)
+	(no_connect
 		(at 107.95 139.7)
 		(uuid "bf25dcb7-9999-4e91-8542-071ac7e9c9ab")
 	)
 	(no_connect
 		(at 27.94 149.86)
 		(uuid "d0644bf2-3510-46d8-a3bc-b1b6ac35daa1")
+	)
+	(no_connect
+		(at 245.11 120.65)
+		(uuid "e7806207-3abf-43c4-9e33-567ba38d7c9f")
 	)
 	(no_connect
 		(at 82.55 149.86)
@@ -4887,6 +6153,16 @@
 			(type default)
 		)
 		(uuid "047ea26d-4625-4ffe-a7e4-c6189dbbbbef")
+	)
+	(wire
+		(pts
+			(xy 247.65 66.04) (xy 246.38 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b71eb53-0b67-4971-9c81-9e7dd69fa216")
 	)
 	(wire
 		(pts
@@ -5130,6 +6406,26 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 55.88) (xy 246.38 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a4fca31-2c0f-44f9-99f4-ba5e478c99bf")
+	)
+	(wire
+		(pts
+			(xy 266.7 58.42) (xy 246.38 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a929996-34d3-4743-897b-42236b495ce8")
+	)
+	(wire
+		(pts
 			(xy 185.42 156.21) (xy 187.96 156.21)
 		)
 		(stroke
@@ -5147,6 +6443,16 @@
 			(type default)
 		)
 		(uuid "504696bf-28dc-4d1e-8374-8c3164e0896a")
+	)
+	(wire
+		(pts
+			(xy 261.62 43.18) (xy 261.62 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "514f73e3-ef2c-4dad-bab2-28682f001a6c")
 	)
 	(wire
 		(pts
@@ -5227,6 +6533,16 @@
 			(type default)
 		)
 		(uuid "5e2de92d-b0fb-4f43-b65c-480db6280d2a")
+	)
+	(wire
+		(pts
+			(xy 228.6 39.37) (xy 228.6 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f9f4d6b-97cd-49d5-9438-cf0ac21bafd6")
 	)
 	(wire
 		(pts
@@ -5320,6 +6636,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 53.34) (xy 246.38 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85db6f22-ddc8-48a5-87fa-da99f591039f")
+	)
+	(wire
+		(pts
 			(xy 250.19 163.83) (xy 255.27 163.83)
 		)
 		(stroke
@@ -5410,6 +6736,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 68.58) (xy 246.38 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a454a4a6-0f29-4b16-845f-7a4bec868a12")
+	)
+	(wire
+		(pts
 			(xy 80.01 170.18) (xy 80.01 172.72)
 		)
 		(stroke
@@ -5480,6 +6816,26 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 38.1) (xy 261.62 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb901895-8157-471c-a162-d6988494d677")
+	)
+	(wire
+		(pts
+			(xy 261.62 43.18) (xy 256.54 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc77bfef-fc7e-4e2d-8a5e-bc432203857a")
+	)
+	(wire
+		(pts
 			(xy 105.41 33.02) (xy 105.41 38.1)
 		)
 		(stroke
@@ -5507,6 +6863,26 @@
 			(type default)
 		)
 		(uuid "bdfe755d-9a3e-4ed4-8713-002118def1a3")
+	)
+	(wire
+		(pts
+			(xy 247.65 60.96) (xy 246.38 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2965679-de4f-4561-bb27-17c8b14b07ad")
+	)
+	(wire
+		(pts
+			(xy 256.54 43.18) (xy 256.54 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c84585e2-b329-455b-bcfe-fa87e2cd03a4")
 	)
 	(wire
 		(pts
@@ -5687,6 +7063,16 @@
 			(type default)
 		)
 		(uuid "f302a7aa-5a02-4c19-955a-2fe334bf7440")
+	)
+	(wire
+		(pts
+			(xy 261.62 38.1) (xy 261.62 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f32975a9-f97e-4d93-8a14-df2b1824b52a")
 	)
 	(wire
 		(pts
@@ -6008,6 +7394,16 @@
 		)
 		(uuid "49e91a61-23f1-4aa7-b371-5e97086393b7")
 	)
+	(label "I2C_SDA"
+		(at 203.2 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4ec578cc-4608-4ef4-9885-d74ffcd56d9a")
+	)
 	(label "SPI_MOSI"
 		(at 220.98 120.65 180)
 		(effects
@@ -6188,6 +7584,16 @@
 		)
 		(uuid "84738cba-1e56-4a0d-a9a3-644306af6916")
 	)
+	(label "SPI_MOSI"
+		(at 247.65 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8839146d-d7ef-4627-ba91-ea517c920bc7")
+	)
 	(label "USB_D-"
 		(at 137.16 62.23 0)
 		(effects
@@ -6207,6 +7613,16 @@
 			(justify left bottom)
 		)
 		(uuid "89a01887-524e-4a3d-b459-3fd3ba71ec6c")
+	)
+	(label "INT_IOE2"
+		(at 203.2 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8bfe6c8a-a919-4452-b6ae-88a2b2e631ce")
 	)
 	(label "ENC_A"
 		(at 107.95 134.62 0)
@@ -6258,6 +7674,16 @@
 		)
 		(uuid "9298a9cd-2a4b-4022-aad2-77ed3ddb1d0f")
 	)
+	(label "I2C_SCL"
+		(at 203.2 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9407d297-c92d-412b-a199-1fb5e67ca26e")
+	)
 	(label "USB_VBUS"
 		(at 276.86 158.75 90)
 		(effects
@@ -6287,6 +7713,16 @@
 			(justify left bottom)
 		)
 		(uuid "97bf4945-2dbb-47c8-a44f-2a9a0d5496d8")
+	)
+	(label "SPI_SCK"
+		(at 247.65 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "984fe6f5-a92c-44a8-a0a8-c603fa361c8c")
 	)
 	(label "USB_VBUS"
 		(at 80.01 27.94 180)
@@ -6357,6 +7793,16 @@
 			(justify left bottom)
 		)
 		(uuid "b1c06b84-fdc7-452b-851e-11a7958a60ce")
+	)
+	(label "INT_IOE1"
+		(at 203.2 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b48a0698-6c5d-43d0-ae25-e39be3c5bf10")
 	)
 	(label "M_COL1"
 		(at 142.24 161.29 0)
@@ -6468,6 +7914,16 @@
 		)
 		(uuid "d9bca173-fc03-43cd-ac11-9fcfa689b2d0")
 	)
+	(label "VBUS"
+		(at 247.65 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dc0db7be-dc65-4da5-942c-bbf07bae5d2b")
+	)
 	(label "M_COL7"
 		(at 107.95 144.78 0)
 		(effects
@@ -6477,6 +7933,16 @@
 			(justify left bottom)
 		)
 		(uuid "dd8e9d5f-f17d-4548-99ad-4dbec7dd791b")
+	)
+	(label "SPI_CS"
+		(at 247.65 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e3c725ec-f239-4aee-870f-4ca89020b526")
 	)
 	(label "I2C_SCL"
 		(at 82.55 132.08 180)
@@ -7162,6 +8628,84 @@
 			(project "mothership"
 				(path "/02dc08fe-8ec4-4078-b85a-ecd1690e4fdc"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 266.7 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b84d79c-8731-4de7-b18e-8f323648d796")
+		(property "Reference" "#PWR024"
+			(at 266.7 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 266.7 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.7 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 266.7 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c3aa0262-48ae-46d4-8c6e-51ee43f1cbe4")
+		)
+		(instances
+			(project "mothership"
+				(path "/02dc08fe-8ec4-4078-b85a-ecd1690e4fdc"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -9494,6 +11038,92 @@
 		)
 	)
 	(symbol
+		(lib_id "A9M0330:Transistor_FET__AO3401A")
+		(at 271.78 124.46 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "92d3da09-9e36-432b-bb8b-a42307d8a461")
+		(property "Reference" "Q1"
+			(at 271.78 115.57 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AO3401A"
+			(at 271.78 118.11 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 273.685 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
+			(at 275.59 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
+			(at 271.78 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "56755d28-8be5-4f29-8dfb-f4584567538e")
+		)
+		(pin "3"
+			(uuid "644778d2-ca49-419c-9be6-fc941602c6db")
+		)
+		(pin "1"
+			(uuid "9be4c382-14c4-46c0-abc4-737289b15b7d")
+		)
+		(instances
+			(project "mothership"
+				(path "/02dc08fe-8ec4-4078-b85a-ecd1690e4fdc"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "A9M0330:R_Small")
 		(at 190.5 156.21 270)
 		(unit 1)
@@ -9584,6 +11214,148 @@
 		)
 	)
 	(symbol
+		(lib_id "A9M0330:MCU_Module__XIAO_nRF52840_NFC-NC")
+		(at 224.79 60.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5e2eb53-f743-4d68-8f61-7d2bee47a1e9")
+		(property "Reference" "U2"
+			(at 225.6633 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "XIAO_nRF52840"
+			(at 225.6633 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://wiki.seeedstudio.com/XIAO_BLE/"
+			(at 217.424 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "an ultra-small, low-power Bluetooth 5.0 and NFC development board powered by the Nordic nRF52840 ARM Cortex-M4 CPU"
+			(at 224.79 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "20"
+			(uuid "a7548648-1412-4220-98ca-6d3cbfec79d5")
+		)
+		(pin "8"
+			(uuid "76b4741b-bf6f-4d3d-ad02-017345d119c1")
+		)
+		(pin "2"
+			(uuid "6f164915-679d-40a3-91cb-e06a9e577683")
+		)
+		(pin "11"
+			(uuid "4c632114-4464-4fd9-ba90-72fd3be37148")
+		)
+		(pin "13"
+			(uuid "80276b19-4dcc-4d16-af61-d4a38f6d46f7")
+		)
+		(pin "6"
+			(uuid "9834c2d1-747b-4628-b117-3ae7cd3d6b32")
+		)
+		(pin "1"
+			(uuid "7931460f-d181-4f63-885b-7a42533002d1")
+		)
+		(pin "4"
+			(uuid "d03dedc4-fa6a-4497-b41b-4fdb27203d94")
+		)
+		(pin "5"
+			(uuid "b2bcc838-7863-434c-bad1-4c441af98711")
+		)
+		(pin "16"
+			(uuid "4762b561-13bd-46cc-8f00-d8bcc6000f89")
+		)
+		(pin "18"
+			(uuid "bbc20d6e-b314-414f-8c17-4086b92c318f")
+		)
+		(pin "3"
+			(uuid "efdc801b-8273-4b67-8aa7-f74aca08f60e")
+		)
+		(pin "7"
+			(uuid "7dc9fd05-e1fd-4744-953b-130e87538cfa")
+		)
+		(pin "9"
+			(uuid "bc3f6cae-1b2c-476b-8192-5e868d157348")
+		)
+		(pin "10"
+			(uuid "b1150545-8d8e-4de2-862b-2bfea6f8a56c")
+		)
+		(pin "19"
+			(uuid "74079125-67dd-4ec7-bafe-617a829a10ec")
+		)
+		(pin "12"
+			(uuid "84c2f621-dfb2-4b04-9b6e-369c82f722ff")
+		)
+		(pin "22"
+			(uuid "103b142b-c9ba-4430-9da6-2c08d58eae36")
+		)
+		(pin "14"
+			(uuid "9016630c-0c0f-4c4e-b906-2bad0cb93fe5")
+		)
+		(pin "21"
+			(uuid "35913072-c12b-4a60-802e-b9f4d1b84274")
+		)
+		(pin "15"
+			(uuid "1edacff5-3592-4281-8394-7f0cd3bcc2e7")
+		)
+		(pin "17"
+			(uuid "a57b018e-4d09-4e03-815d-b8e39bd21ce4")
+		)
+		(instances
+			(project "mothership"
+				(path "/02dc08fe-8ec4-4078-b85a-ecd1690e4fdc"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 115.57 38.1 0)
 		(unit 1)
@@ -9656,6 +11428,85 @@
 			(project "mothership"
 				(path "/02dc08fe-8ec4-4078-b85a-ecd1690e4fdc"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "A9M0330:R_Small")
+		(at 243.84 139.7 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b4ff6d79-ba46-43d0-bc5d-b6611d905e56")
+		(property "Reference" "R3"
+			(at 243.84 134.62 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 243.84 137.16 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.84 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 243.84 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "98507446-39f9-488f-853e-fc8860ed4de5")
+		)
+		(pin "1"
+			(uuid "646d104e-bec4-419b-bb09-49af2b33b9c4")
+		)
+		(instances
+			(project "mothership"
+				(path "/02dc08fe-8ec4-4078-b85a-ecd1690e4fdc"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -10351,6 +12202,89 @@
 		)
 	)
 	(symbol
+		(lib_id "A9M0330:SW_SPDT_321")
+		(at 250.19 123.19 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7746af5-1515-4343-8587-fadd5150e24e")
+		(property "Reference" "SW1"
+			(at 250.19 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPDT_321"
+			(at 250.19 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 250.19 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 250.19 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5c98718e-4c59-46da-8ce5-c966345f759c")
+		)
+		(pin "3"
+			(uuid "e0ce0929-d87b-476f-926b-966194605ade")
+		)
+		(pin "2"
+			(uuid "e86fa666-d06a-4c31-b0b2-adc660c804b4")
+		)
+		(instances
+			(project "mothership"
+				(path "/02dc08fe-8ec4-4078-b85a-ecd1690e4fdc"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "A9M0330:Conn_01x05_MountingPin")
 		(at 226.06 125.73 0)
 		(unit 1)
@@ -10445,6 +12379,97 @@
 		)
 	)
 	(symbol
+		(lib_id "A9M0330:LED_Small")
+		(at 252.73 139.7 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e403623b-0b05-4bba-aeae-fbf333e7514d")
+		(property "Reference" "D1"
+			(at 252.7935 133.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_Small"
+			(at 252.7935 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 252.73 139.7 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 139.7 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 252.73 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 252.73 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "063d3a99-a9b8-4e7e-abe5-b7e2a3356a70")
+		)
+		(pin "1"
+			(uuid "bcd9b222-031b-4e52-b068-523c83e707e7")
+		)
+		(instances
+			(project "mothership"
+				(path "/02dc08fe-8ec4-4078-b85a-ecd1690e4fdc"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "A9M0330:Protection_Power__NCP361SN")
 		(at 115.57 30.48 0)
 		(unit 1)
@@ -10528,6 +12553,84 @@
 			(project "mothership"
 				(path "/02dc08fe-8ec4-4078-b85a-ecd1690e4fdc"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 223.52 82.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed549613-40c9-44be-8d15-8334688db65f")
+		(property "Reference" "#PWR015"
+			(at 223.52 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 223.52 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 223.52 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "70d2b4aa-bac1-40b9-84c4-8ee12778bf4a")
+		)
+		(instances
+			(project "mothership"
+				(path "/02dc08fe-8ec4-4078-b85a-ecd1690e4fdc"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -10799,6 +12902,84 @@
 			(project "mothership"
 				(path "/02dc08fe-8ec4-4078-b85a-ecd1690e4fdc"
 					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 261.62 45.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f163fd85-2b81-4c63-b8ca-01cf2e1575d7")
+		(property "Reference" "#PWR012"
+			(at 261.62 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 261.62 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 261.62 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 261.62 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8f1776b6-db2c-404b-a3cf-60d287440bf6")
+		)
+		(instances
+			(project "mothership"
+				(path "/02dc08fe-8ec4-4078-b85a-ecd1690e4fdc"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)

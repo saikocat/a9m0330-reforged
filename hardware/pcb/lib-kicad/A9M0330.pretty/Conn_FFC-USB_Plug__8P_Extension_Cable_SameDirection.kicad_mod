@@ -1,0 +1,143 @@
+(footprint "Conn_FFC-USB_Plug__8P_Extension_Cable_SameDirection"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9cdf134d-ab86-4b56-bcbf-478764c098e9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "FFC-USB_Plug__Extension_Cable"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "86686f7b-a5a2-4e6b-81f1-b39b40c65e07")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.alibaba.com/product-detail/Flat-USB-Extension-Cable-Low-Profile_1600270155114.html"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "158b3cee-3ced-4c34-b7be-838b549750b9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d439e204-7708-46df-8ba0-e5c47a10add9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_poly
+		(pts
+			(xy -3.46 -2) (xy -3.8 -2.47) (xy -3.12 -2.47)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "2c233f79-db44-48b4-b4a5-e5ab8935b0af")
+	)
+	(fp_rect
+		(start -4 -2)
+		(end 4 2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "2516b0dc-0f3e-4334-9b22-d9743de2375d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1310e650-4341-42d8-94f6-714428957ae1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "CC" smd rect
+		(at 1.35 0)
+		(size 0.6 3.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2b6f42e4-09e2-4b69-b99f-46a9e3cf8a8c")
+	)
+	(pad "D+" smd rect
+		(at 0.45 0)
+		(size 0.6 3.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "83af881b-7d6c-4870-870b-fd57fe273b37")
+	)
+	(pad "D-" smd rect
+		(at -0.45 0)
+		(size 0.6 3.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c1e882a0-d847-49e1-8d52-b365bf3b58da")
+	)
+	(pad "GND" smd rect
+		(at -3.45 0)
+		(size 0.8 3.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "72eb07ad-2945-4839-8cc2-fddacaef4beb")
+	)
+	(pad "GND" smd rect
+		(at 3.45 0)
+		(size 0.8 3.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3e20a9da-3736-4e6a-bd44-2aafca153b9f")
+	)
+	(pad "VBUS" smd rect
+		(at -2.35 0)
+		(size 0.8 3.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b99ac774-9945-4b2a-b42d-a46ab21ab7aa")
+	)
+	(pad "VBUS" smd rect
+		(at 2.35 0)
+		(size 0.8 3.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5964e06c-d35b-4035-8b7c-2340bb48808a")
+	)
+	(pad "VCONN" smd rect
+		(at -1.35 0)
+		(size 0.6 3.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "75828685-803a-4ec5-9757-3abd86fb53f3")
+	)
+	(embedded_fonts no)
+)

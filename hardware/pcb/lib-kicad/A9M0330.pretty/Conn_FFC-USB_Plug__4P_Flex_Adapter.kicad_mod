@@ -1,0 +1,119 @@
+(footprint "Conn_FFC-USB_Plug__4P_Flex_Adapter"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f4bae857-1942-402d-a478-a7aac965de13")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "FFC-USB_Plug__4P_Flex_Adapter"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b9dc1fed-580c-45a4-b263-f81368f71e50")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.alibaba.com/product-detail/Flat-USB-Extension-Cable-Low-Profile_1600270155114.html"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3477d94d-b441-48a1-984b-1a8dac9700a7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "465a38cf-35d6-47fb-8951-5c592db74a09")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_poly
+		(pts
+			(xy -3.2 -1.1) (xy -3.67 -0.76) (xy -3.67 -1.44)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "5f6e4d87-bad2-4db9-a7c7-d0e34142afc3")
+	)
+	(fp_rect
+		(start -4 -2)
+		(end 4 2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "3b027092-484a-43fe-9d84-d71cc057a7bb")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c992ed0a-b11e-49f5-8303-a9e9332ddb0d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "D+" smd rect
+		(at 0.75 0)
+		(size 1.2 3.5)
+		(layers "F.Cu" "F.Mask")
+		(uuid "7401e16a-15e4-4779-b75f-3249fb1910a4")
+	)
+	(pad "D-" smd rect
+		(at -0.75 0)
+		(size 1.2 3.5)
+		(layers "F.Cu" "F.Mask")
+		(uuid "be5d31cd-cc13-4cff-bff9-b046e5fb288d")
+	)
+	(pad "GND" smd rect
+		(at 2.25 0)
+		(size 1.2 3.5)
+		(layers "F.Cu" "F.Mask")
+		(uuid "c96ab0dd-cce1-4dce-896a-94a95a4c4e45")
+	)
+	(pad "VBUS" smd rect
+		(at -2.25 0)
+		(size 1.2 3.5)
+		(layers "F.Cu" "F.Mask")
+		(uuid "535a0051-bfaf-48bb-b1ce-2f699bf20ce0")
+	)
+	(embedded_fonts no)
+)

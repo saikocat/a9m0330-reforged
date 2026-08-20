@@ -7451,7 +7451,7 @@
 		)
 		(uuid "7312c944-fcdd-4f71-a601-e147748c76d2")
 	)
-	(text "R1: BPROT VDD FEED\n    HY2115/HY2113: 100R \n    S-8261A: 470R\n    S-8240D: 330R\n\nR2: BPROT NEG-SENSE LIMIT\n    2K00 DEFAULT\n    S-8240D: 470R\n\nR3: BPROT_SHUNT/BYPASS\n    HY2115: 100mR 1% LOW-TCR;\n    CLASSIC: LOW-R 0R JUMPER\n\nR4: CS_LINK\n    HY2115: 0R;\n    CLASSIC: DNP"
+	(text "R1: BPROT VDD FEED\n    HY2115/HY2113: 100R \n    S-8261A: 470R\n    S-8240Â: 330R\n\nR2: BPROT NEG-SENSE LIMIT\n    2K00 DEFAULT\n    S-8240A: 470R\n\nR3: BPROT_SHUNT/BYPASS\n    HY2115: 100mR 1% LOW-TCR;\n    CLASSIC: LOW-R 0R JUMPER\n\nR4: CS_LINK\n    HY2115: 0R;\n    CLASSIC: DNP"
 		(exclude_from_sim no)
 		(at 318.008 121.158 0)
 		(effects
@@ -7473,6 +7473,17 @@
 			)
 		)
 		(uuid "892628ae-115c-47bb-b425-1102d013c1d9")
+	)
+	(text "Avoid Kelvin pick-up\nShould originate from \nthe Resistor pad"
+		(exclude_from_sim no)
+		(at 241.808 172.72 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left)
+		)
+		(uuid "91931c1e-d3fd-4af3-9206-d4002f5493ac")
 	)
 	(text "Pins to Matrix\n--------------"
 		(exclude_from_sim no)
@@ -7602,7 +7613,7 @@
 		(at 257.81 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "57b45347-6791-454c-a5ae-87f5e325d42d")
+		(uuid "5e0bed5f-177e-47e9-bd87-949a1889452d")
 	)
 	(junction
 		(at 80.01 154.94)
@@ -7713,12 +7724,6 @@
 		(uuid "e00246a6-555c-4fc5-887e-1568bd051d90")
 	)
 	(junction
-		(at 246.38 151.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e0fa43fa-900b-4999-abce-c4c1b5b5da11")
-	)
-	(junction
 		(at 105.41 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7822,16 +7827,6 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 162.56) (xy 250.19 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06991fa0-02d2-452e-9c06-19f31ef685b6")
-	)
-	(wire
-		(pts
 			(xy 233.68 46.99) (xy 232.41 46.99)
 		)
 		(stroke
@@ -7922,6 +7917,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 153.67) (xy 261.62 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18ddd00d-0b39-40d9-a6e5-ca4ddaa114be")
+	)
+	(wire
+		(pts
 			(xy 64.77 217.17) (xy 62.23 217.17)
 		)
 		(stroke
@@ -7929,6 +7934,16 @@
 			(type default)
 		)
 		(uuid "194bdb54-6ac0-4b2b-ace7-566b3b8ffc9f")
+	)
+	(wire
+		(pts
+			(xy 261.62 153.67) (xy 261.62 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bbbe598-00bd-4aad-b749-866028d412af")
 	)
 	(wire
 		(pts
@@ -8182,7 +8197,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 151.13) (xy 246.38 151.13)
+			(xy 243.84 151.13) (xy 261.62 151.13)
 		)
 		(stroke
 			(width 0)
@@ -8402,6 +8417,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 162.56) (xy 248.92 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5eb0ed56-67f0-472f-be1a-fe8dc26e2419")
+	)
+	(wire
+		(pts
 			(xy 214.63 20.32) (xy 214.63 19.05)
 		)
 		(stroke
@@ -8459,16 +8484,6 @@
 			(type default)
 		)
 		(uuid "6cc02427-ab04-4b48-a4c7-b462ef33c722")
-	)
-	(wire
-		(pts
-			(xy 255.27 162.56) (xy 257.81 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71633ddb-6369-4366-ba96-11181728f5e7")
 	)
 	(wire
 		(pts
@@ -9092,6 +9107,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 162.56) (xy 252.73 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e30cde9b-447e-4d50-9643-da2da8646209")
+	)
+	(wire
+		(pts
 			(xy 189.23 143.51) (xy 189.23 146.05)
 		)
 		(stroke
@@ -9102,16 +9127,6 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 151.13) (xy 261.62 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e61b2b78-f042-4a95-b2a8-b580f02cf245")
-	)
-	(wire
-		(pts
 			(xy 25.4 172.72) (xy 27.94 172.72)
 		)
 		(stroke
@@ -9119,16 +9134,6 @@
 			(type default)
 		)
 		(uuid "e61dcd25-dc33-428f-ac5f-4461a3996585")
-	)
-	(wire
-		(pts
-			(xy 246.38 151.13) (xy 246.38 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e87f353f-63eb-4444-8218-895d6e8260ae")
 	)
 	(wire
 		(pts
@@ -12501,7 +12506,7 @@
 	)
 	(symbol
 		(lib_id "A9M0330:R_Small")
-		(at 252.73 162.56 90)
+		(at 255.27 162.56 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -12512,7 +12517,7 @@
 		(dnp no)
 		(uuid "4ec94dad-b643-487d-bcee-8f5d0748fc5f")
 		(property "Reference" "R10"
-			(at 254.254 157.988 90)
+			(at 256.794 157.988 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12523,7 +12528,7 @@
 			)
 		)
 		(property "Value" "BPROT_SHUNT/BYPASS"
-			(at 252.73 160.02 90)
+			(at 255.27 160.02 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12533,7 +12538,7 @@
 			)
 		)
 		(property "Footprint" "A9M0330:Resistor_SMD__R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 252.73 162.56 0)
+			(at 255.27 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12544,7 +12549,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 252.73 162.56 0)
+			(at 255.27 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12555,7 +12560,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 252.73 162.56 0)
+			(at 255.27 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

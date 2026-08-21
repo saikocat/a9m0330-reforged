@@ -720,7 +720,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "Conn_01x03_MountingPin"
+	(symbol "Conn_01x03"
 		(pin_names
 			(offset 1.016)
 			(hide yes)
@@ -740,15 +740,14 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x03_MountingPin"
-			(at 1.27 -5.08 0)
+		(property "Value" "Conn_01x03"
+			(at 0 -5.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -773,7 +772,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connectable mounting pin connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -795,7 +794,7 @@
 				)
 			)
 		)
-		(property "ki_fp_filters" "Connector*:*_1x??-1MP*"
+		(property "ki_fp_filters" "Connector*:*_1x??_*"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -806,7 +805,7 @@
 				)
 			)
 		)
-		(symbol "Conn_01x03_MountingPin_1_1"
+		(symbol "Conn_01x03_1_1"
 			(rectangle
 				(start -1.27 3.81)
 				(end 1.27 -3.81)
@@ -849,26 +848,6 @@
 				)
 				(fill
 					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.016 -4.572) (xy 1.016 -4.572)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(text "Mounting"
-				(at 0 -4.191 0)
-				(effects
-					(font
-						(size 0.381 0.381)
-					)
 				)
 			)
 			(pin passive line
@@ -918,24 +897,6 @@
 					)
 				)
 				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -7.62 90)
-				(length 3.048)
-				(name "MountPin"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "MP"
 					(effects
 						(font
 							(size 1.27 1.27)

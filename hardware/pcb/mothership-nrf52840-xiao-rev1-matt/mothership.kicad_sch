@@ -11922,7 +11922,7 @@
 				)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "100nF"
 			(at 54.6163 223.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14233,7 +14233,7 @@
 				)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "100nF"
 			(at 69.8436 223.52 0)
 			(show_name no)
 			(do_not_autoplace no)

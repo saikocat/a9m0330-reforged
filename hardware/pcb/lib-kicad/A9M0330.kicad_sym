@@ -5365,7 +5365,7 @@
 			(pin passive line
 				(at -10.16 0 0)
 				(length 5.08)
-				(name "D+"
+				(name "IO1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5383,7 +5383,7 @@
 			(pin passive line
 				(at 10.16 0 180)
 				(length 5.08)
-				(name "D-"
+				(name "IO2"
 					(effects
 						(font
 							(size 1.27 1.27)

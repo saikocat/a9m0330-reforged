@@ -63,7 +63,7 @@
           "min_clearance": 0.5,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
-          "pad_connection": 1,
+          "pad_connection": 2,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
@@ -217,6 +217,7 @@
       "track_widths": [
         0.0,
         0.2,
+        0.381,
         0.5,
         1.0
       ],
@@ -533,9 +534,9 @@
       {
         "bus_width": 12,
         "clearance": 0.2,
-        "diff_pair_gap": 0.2,
+        "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_width": 0.25,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
@@ -545,14 +546,14 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "tuning_profile": "",
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
         "wire_width": 6
       },
       {
         "clearance": 0.2,
-        "diff_pair_gap": 0.2,
-        "diff_pair_width": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 1.0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "DiffPair_1.2",
@@ -566,8 +567,8 @@
       },
       {
         "clearance": 0.2,
-        "diff_pair_gap": 0.15,
-        "diff_pair_width": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 1.2,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "DiffPair_1.6",
@@ -758,7 +759,7 @@
         "uuid": "02dc08fe-8ec4-4078-b85a-ecd1690e4fdc"
       }
     ],
-    "used_designators": "#FLG3-7,U1-3,U6,TP1-3,R8-13,JP1,J1,J10-11,#PWR11,#PWR27-32,Q2,C7,D1,SW2",
+    "used_designators": "U1-3,U6,R8-9,#FLG3-6,J1,J10-11,D1,#PWR27-31,#PWR33,Q2,C7,SW2,TP1-2",
     "variants": []
   },
   "sheets": [

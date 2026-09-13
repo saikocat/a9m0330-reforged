@@ -7568,6 +7568,12 @@
 		(uuid "89ff8103-8f67-47f7-9316-5b8705dd0574")
 	)
 	(junction
+		(at 59.69 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a9e7b96-1495-4f91-86ef-717fd1ae9728")
+	)
+	(junction
 		(at 132.08 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8565,6 +8571,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 88.9) (xy 59.69 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "692b8b08-07c4-4478-8736-be14bc812f54")
+	)
+	(wire
+		(pts
 			(xy 140.97 60.96) (xy 140.97 62.23)
 		)
 		(stroke
@@ -8895,6 +8911,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 95.25) (xy 62.23 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adcbd091-5536-41e3-80e6-afe1bc405662")
+	)
+	(wire
+		(pts
 			(xy 59.69 236.22) (xy 59.69 240.03)
 		)
 		(stroke
@@ -8905,7 +8931,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 96.52) (xy 62.23 96.52)
+			(xy 39.37 95.25) (xy 41.91 95.25)
 		)
 		(stroke
 			(width 0)
@@ -9155,7 +9181,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 88.9) (xy 62.23 88.9)
+			(xy 59.69 88.9) (xy 64.77 88.9)
 		)
 		(stroke
 			(width 0)
@@ -12540,6 +12566,85 @@
 		)
 	)
 	(symbol
+		(lib_id "A9M0330:TestPoint")
+		(at 62.23 95.25 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a13e6c5-3ce9-434e-9657-8fd87bd2326e")
+		(property "Reference" "TP2"
+			(at 67.31 93.9799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP_3V3"
+			(at 67.31 96.5199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "A9M0330:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+			(at 62.23 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 62.23 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2fdc43a7-5bf5-46ac-88fc-dd475f71899d")
+		)
+		(instances
+			(project "mothership"
+				(path "/02dc08fe-8ec4-4078-b85a-ecd1690e4fdc"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 74.93 127 0)
 		(unit 1)
@@ -14718,85 +14823,6 @@
 		)
 	)
 	(symbol
-		(lib_id "A9M0330:TestPoint")
-		(at 62.23 88.9 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "95343d27-c891-4d64-8718-7e6e6b3b6f26")
-		(property "Reference" "TP2"
-			(at 67.31 87.6299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TP_3V3"
-			(at 67.31 90.1699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "A9M0330:TestPoint_THTPad_D2.0mm_Drill1.0mm"
-			(at 62.23 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 62.23 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 62.23 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3c83d28c-c004-47f8-badd-87929e68e61a")
-		)
-		(instances
-			(project "mothership"
-				(path "/02dc08fe-8ec4-4078-b85a-ecd1690e4fdc"
-					(reference "TP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 337.82 147.32 0)
 		(unit 1)
@@ -15504,7 +15530,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 59.69 96.52 0)
+		(at 39.37 95.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15515,7 +15541,7 @@
 		(fields_autoplaced yes)
 		(uuid "ab8b7e56-f807-4c72-9365-091104f29a84")
 		(property "Reference" "#PWR011"
-			(at 59.69 102.87 0)
+			(at 39.37 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15526,7 +15552,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 59.69 101.6 0)
+			(at 39.37 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15536,7 +15562,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 59.69 96.52 0)
+			(at 39.37 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15547,7 +15573,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 96.52 0)
+			(at 39.37 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15558,7 +15584,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 59.69 96.52 0)
+			(at 39.37 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15739,7 +15765,7 @@
 	)
 	(symbol
 		(lib_id "A9M0330:TestPoint")
-		(at 62.23 96.52 270)
+		(at 41.91 95.25 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15750,7 +15776,7 @@
 		(fields_autoplaced yes)
 		(uuid "b561a6b8-74e7-4095-bef3-a05d73455d15")
 		(property "Reference" "TP3"
-			(at 67.31 95.2499 90)
+			(at 46.99 93.9799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15761,7 +15787,7 @@
 			)
 		)
 		(property "Value" "TP_GND"
-			(at 67.31 97.7899 90)
+			(at 46.99 96.5199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15772,7 +15798,7 @@
 			)
 		)
 		(property "Footprint" "A9M0330:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
-			(at 62.23 101.6 0)
+			(at 41.91 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15783,7 +15809,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 101.6 0)
+			(at 41.91 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15794,7 +15820,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 62.23 96.52 0)
+			(at 41.91 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17552,6 +17578,84 @@
 			(project "mothership"
 				(path "/02dc08fe-8ec4-4078-b85a-ecd1690e4fdc"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "A9M0330:TestPoint_Square")
+		(at 64.77 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f6742ee8-51be-48d0-a689-eb4a3aff6832")
+		(property "Reference" "TP4"
+			(at 67.31 87.6299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP_ADB_VCC"
+			(at 67.31 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "A9M0330:TestPoint_Pad_2.5x2.5mm"
+			(at 69.85 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 64.77 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3ae672b7-69b3-4e25-8f90-54c14208098c")
+		)
+		(instances
+			(project "mothership"
+				(path "/02dc08fe-8ec4-4078-b85a-ecd1690e4fdc"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
